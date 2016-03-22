@@ -1,0 +1,46 @@
+@charset "UTF-8";
+/*样式重置*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body, .wrapper, .slider, .persons, .main {
+  padding: 20px;
+  border: 1px solid #999; }
+
+.wrapper {
+  background-color: #eee;
+  overflow: hidden; }
+  .wrapper img {
+    display: block;
+    width: 80px;
+    height: 80px; }
+
+/*团队名称*/
+.slider {
+  float: left;
+  margin-right: 20px;
+  width: 200px; }
+  .slider img {
+    display: inline-block; }
+  .slider h3 {
+    float: right; }
+
+/*团队成员列表*/
+.persons {
+  float: right;
+  margin-left: 20px; }
+  .persons img {
+    margin-bottom: 20px; }
+
+/*团队介绍*/
+.main {
+  margin: 0 20px;
+  overflow: hidden; }
+  .main h3 {
+    margin-bottom: 20px; }
+  .main p:nth-child(2n+1) {
+    margin-bottom: 10px; }
+
+/*# sourceMappingURL=mission-3.css.map */
