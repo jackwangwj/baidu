@@ -12,6 +12,8 @@ body,.wrapper,.slider,.persons,.main{
 .wrapper{
   background-color: #eee;
   overflow: hidden;
+  min-width: 460px;
+  word-break: break-all;
   img{
     display: block;
     width: 80px;
