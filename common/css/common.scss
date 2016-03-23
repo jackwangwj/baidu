@@ -1,0 +1,25 @@
+@charset "utf-8";
+/*样式重置*/
+*{
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+img{
+  display: block;
+}
+a{
+  text-decoration: none;
+}
+li{
+  list-style-type:none;
+}
+.claerfix:after{
+  content: '.';
+  visibility: hidden;
+  height: 0;
+  display: block;
+  clear: both;
+}
