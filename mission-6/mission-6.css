@@ -218,14 +218,16 @@
         top: 26px;
         left: -79px;
         font-size: 72px;
-        font-style: normal; }
+        font-style: normal;
+        color: #d45d5c; }
       .news .news-r .title-info:after {
         content: '”';
         position: absolute;
         right: -20px;
         bottom: -28px;
         font-size: 72px;
-        font-style: normal; }
+        font-style: normal;
+        color: #d45d5c; }
 
 /*底部*/
 footer {
